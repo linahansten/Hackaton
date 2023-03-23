@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    background-image:url("blurry-gradient-haikei.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+nav{
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+}
+
+.logo{
+    width: 120px;
+    height: 40px;
+}
+
+.iconImg {
+    margin-top: 50px;
+    padding: 10px;
+    max-width: 25px;
+    max-height: 15px;
+}
+
+.dashboard {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 110px;
+    height: 35px;
+    color: #686868;
+    background-color: #262626;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#middle{
+    margin-top:70px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.p1{
+    color: #686868;
+}
+
+.p2{
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: -10px;
+}
+
+.p3{
+    color: #885ec9;
+    font-weight: 700;
+}
+
+.p4{
+    margin-top: 60px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.p5{
+    font-size: 0.8rem;
+}
+
+.name{
+color: white;
+font-family: 'Source Code Pro', monospace;
+}
+
+.twitch{
+    background-image: url("blurry-gradient-haikei\ \(4\).png");
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 20px;
+    border: rgba(127, 87, 188, 0.379) 2px solid;
+    box-shadow: rgba(127, 87, 188, 0.482) 1px 1px 200px;
+    padding: 10px;
+    width: 300px;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.twitch p{
+    margin-left: 10px;
+}
+
+footer{
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: #686868;
+}
+
+.creative, .pro, .gaming, .social{
+    width: 19%;
+}
+
+footer img{
+    max-width: 20px;
+    max-height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.line{
+    display: flex;
+}
+
+hr{
+    width: 100%;
+    height: 0.1px;
+    margin-left:5px ;
+    margin-right: 40px;
+    border-color: #686868;
+    opacity: 60%;
+}
+.option{
+    max-width:150px ;
+   padding-right: 25px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.option:hover{
+    border: #B25A2E 2px solid;
+    border-radius: 5px;
+    background-color: #b25a2e24;
+    color: white;
+}
